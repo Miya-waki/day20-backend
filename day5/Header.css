@@ -1,0 +1,70 @@
+html,
+body {
+    background: #182436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1013px;
+}
+.button {
+    display: block;
+    position: relative;
+    pointer-events: none;
+
+    margin-bottom: 24px !important;
+    margin-top: 16px !important;
+
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-size: 29px !important;
+    line-height: 2px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    padding: 14px 24px !important;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none !important;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 60% !important;
+    
+}
+.button :hover {
+    background: linear-gradient(to right, rgb(143, 56, 76) 0%, rgb(41, 28, 32) 50%, rgb(87, 74, 80) 100%) !important;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.country {
+    background: #185050;
+    padding: 25px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: xx-large
+}
+.parent {
+    background: rgb(255, 255, 255) !important;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 47rem;
+    height: 722px;
+}
+.child1 {
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-top: 55px;
+}
+.child2 {
+    font-weight: bold;
+    font-size: 4rem;
+}

@@ -1,0 +1,17 @@
+head,body{
+    margin: 0px;
+    
+}
+div h1{
+    color: #2efa62;
+    margin: 0px;
+}
+div + p{
+    background-color: rgb(29, 99, 99);
+    padding: 10px;
+    margin: 0px;
+
+
+
+}
+ 

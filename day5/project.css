@@ -1,0 +1,267 @@
+head,body{
+    margin: 0;
+}
+.picadd{
+    background: url(https://picsum.photos/2700/1200);
+    /* height: 2000px; */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+.parent{
+    /* background-color: black; */
+    color: antiquewhite;
+    font-size: medium;
+    height: 100%;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.space{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.left-align{
+    flex: 1;
+    display: flex;
+    margin-right: 5px;
+    justify-content:flex-end;
+}
+.imgort{
+    padding: 40px;
+}
+.child2{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 20px;   
+}
+@media(max-width: 1220px) {
+    .child2 {
+        display: grid;
+    }
+    .left-align {
+        justify-content: flex-start;
+    }
+}
+.textbox{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: black; */
+    height: 60px;   
+}
+.textbox1{
+    opacity: 50%;
+
+   border-radius: 25px;
+    height: 60px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+.beautify-links{
+    column-rule-style: none;
+    text-decoration: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    cursor: pointer;
+    transition:all 1s;
+    font-size: 36px;
+}
+.movingpic{
+    /* background: url(https://picsum.photos/2700/1200); */
+    
+    width: 80%;
+    height: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 60px;
+}
+.bottom-container{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent2{
+  
+    /* background: black; */
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    opacity: 90%;
+    width: 200px;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 20px;
+   margin-bottom: 30px;
+}
+.parent3{
+    background-color:white;
+  padding: 5rem;
+  font-size: 60px;
+}
+.p3child1{
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+
+}
+
+@media (max-width: 1250px) {
+    .p3child1 {
+        display: grid;
+    }
+    .p3-cards {
+        width: 20rem !important;
+        
+    }
+    .p3class1 {
+        display: grid !important;
+    }
+    .p3-btn {
+        margin: 1rem !important;
+    }
+    .p3-exp {
+        width: auto !important;
+    }
+    .parent5child1 {
+        display: grid !important;
+    }
+}
+.p3-cards{
+    margin-top: 25px;
+    height: 654px;
+    margin-bottom: 25px;
+    width: 18%;
+    border-radius: 12px;
+}
+.p3img{
+    height: 350px;
+    width: 100%;
+    border-radius: 12px
+}
+.heading{
+    font-weight: bolder;
+}
+.p3-exp{
+    width: 30%;
+    height: 800px;
+    background: url("https://picsum.photos/900/800");
+   
+    margin-top: 20px;
+    /* display: flex; */
+    margin-bottom: 25px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.p4-exp{
+    width: 30%;
+    height: 800px;
+    background: url("https://picsum.photos/900/800/?blur");
+   
+    margin-top: 20px;
+    /* display: flex; */
+    margin-bottom: 25px;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+.p3class1{
+    display: flex;
+    justify-content: space-between;
+}
+.expimg{
+  background: url("https://picsum.photos/700");
+   display: flex;
+   
+justify-content: space-between;
+   
+    height: 900px;
+    border-radius: 12px;
+  
+}
+.p3text{
+    display: flex;
+    justify-content: left;
+    align-items: left
+    ;
+}
+.parent4{
+    background: url("https://picsum.photos/2700/1400");
+    background-repeat: no-repeat;
+    height: 1000px;
+    /* width: 120%; */
+}
+.parent4text{
+    font-size: 200px;
+    /* height: 500px; */
+    display: flex;
+    margin-top: 20px;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 2rem;
+}
+@media(max-width: 700px) {
+    .parent4text {
+        font-size: 5rem;
+    }
+}
+.parent5{
+    /* height: 800px; */
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+.parent5child1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+.list-text{
+    font-size: 47px;
+    font-style: oblique;
+    margin: 4px 0px 25px 12px;
+}
+.p3-text{
+    font-size: 43px;
+    margin-left: 15px;
+}
+
+.p3-btn{
+    opacity: 50%;
+    padding: 33px;
+    width: 15rem;
+    border-radius: 20px;
+    margin: 3rem;
+}
+
+.p3-title {
+    margin: 3rem;
+    font-size: 5rem;
+    width: 12rem;
+}
+
+.parent4child1 {
+    /* padding: 2rem 2rem 2rem 6rem; */
+    padding: 2rem;
+    height: 1000px;
+}
+
+.list-nav {
+    text-decoration: none;
+    color: black;
+}

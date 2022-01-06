@@ -1,0 +1,12 @@
+{
+    "id":1,
+    "name":"radhe",
+    "email":"rohit@gmail.com",
+    "addr":"khargarh,navi mumbai,MH,410210",
+    "address":{
+        "locality":"khargarh",
+        "city":"navi mumbai",
+        "state":"MH",
+        "pincode":"410210"
+    }
+}

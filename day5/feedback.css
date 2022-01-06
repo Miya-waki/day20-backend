@@ -1,0 +1,37 @@
+head,body{
+    margin: 0px;
+}
+.comments{
+    width: 108%;
+    height: 863px;
+    padding: 2%;
+    font-size: 2rem;
+    background-color: #437d89;
+    color: white;
+    /* width: revert; */
+    font-style: oblique;
+}
+.h1align{
+    display: grid;
+    
+    color: black;
+    width: 61%;
+    text-align: center;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: center;
+    font-size: 57px;
+    padding: 2rem;
+}
+.button1{
+    height: 4rem;
+    width: 20rem;
+    /* align-items: normal; */
+    font-size: xxx-large;
+    font-style: revert;
+    border-block-end-style: none;
+    opacity: 76%;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}

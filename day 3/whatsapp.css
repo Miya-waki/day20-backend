@@ -1,0 +1,22 @@
+head, body{
+    
+    margin: 0cm;
+    background-color: green;
+}
+.whatsapp{
+    padding: 5px;
+    margin: 0px;
+    
+    
+    background-color: #0f8068;
+}
+.whatsapps{
+    background-color: blue
+;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.whatsappd{
+    padding: 5px;
+    margin: 145px;
+}

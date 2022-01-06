@@ -1,0 +1,23 @@
+h1 {
+    color: white;   
+    background: royalblue ;
+}
+#id1{
+    background: gold;
+}
+#id2{
+    background-color: silver;
+}
+p{
+    background: white;
+    padding: 10px;
+    font-size: large;
+    font-style: italic;
+}
+#pid1,#pid2{
+    background: burlywood;
+    padding: 10px;
+    font-size: large;
+    
+    font-style: italic;  
+}

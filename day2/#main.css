@@ -1,0 +1,12 @@
+h1{
+    background: tomato;
+}
+#h1{
+    background: green;
+}
+#id1{
+    background: purple;
+}
+.cls1{
+    background: yellow;
+}
